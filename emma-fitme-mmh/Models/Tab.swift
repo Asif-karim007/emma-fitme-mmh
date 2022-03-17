@@ -13,13 +13,14 @@ struct TabItem: Identifiable {
     var text: String
     var icon: String
     var tab: Tab
+    var color: Color
 }
 
 var tabItems = [
-    TabItem(text: "Programs", icon: "square.grid.2x2.fill",tab: .Programs),
-    TabItem(text: "Your Plan", icon: "square.fill.text.grid.1x2",tab: .YourPlan),
-    TabItem(text: "Exercise", icon: "stopwatch.fill",tab: .Exercise),
-    TabItem(text: "Profile", icon: "person.crop.circle",tab: .Profile)
+    TabItem(text: "Programs", icon: "square.grid.2x2.fill",tab: .Programs,color:.teal),
+    TabItem(text: "Your Plan", icon: "square.fill.text.grid.1x2",tab: .YourPlan,color:.cyan),
+    TabItem(text: "Exercise", icon: "stopwatch.fill",tab: .Exercise,color:.indigo),
+    TabItem(text: "Profile", icon: "person.crop.circle",tab: .Profile,color:.purple)
 ]
 
 enum Tab: String {
@@ -28,6 +29,15 @@ enum Tab: String {
     case Exercise
     case Profile
 }
+
+struct TabPreferenceKey: PreferenceKey {
+    static var defaultValue: CGFloat = 0
+    static func reduce(value: inout CGFloat, nextValue: () -> CGFloat) {
+        value = nextValue()
+    }
+}
+
+
 
 
 struct ExercisebItem: Identifiable {

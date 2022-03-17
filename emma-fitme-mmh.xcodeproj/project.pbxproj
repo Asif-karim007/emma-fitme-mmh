@@ -20,6 +20,8 @@
 		4838B66027BAA82D0020D517 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4838B65F27BAA82D0020D517 /* Exercise.swift */; };
 		4838B66227BAA83D0020D517 /* Profiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4838B66127BAA83D0020D517 /* Profiles.swift */; };
 		4859DA0927BFE12E00E398D3 /* exercise-list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4859DA0827BFE12E00E398D3 /* exercise-list.swift */; };
+		48C3309927DB610B007ED245 /* MatchedGeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C3309827DB610B007ED245 /* MatchedGeometryEffect.swift */; };
+		48C3309B27DB7047007ED245 /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C3309A27DB7047007ED245 /* PlayView.swift */; };
 		48E6F0C627C534EB00402199 /* ProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E6F0C527C534EB00402199 /* ProfileHeader.swift */; };
 		48E6F0C827C5377E00402199 /* profileList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E6F0C727C5377E00402199 /* profileList.swift */; };
 		48EA754627CD212400EFB89A /* picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EA754527CD212400EFB89A /* picker.swift */; };
@@ -40,6 +42,8 @@
 		4838B65F27BAA82D0020D517 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		4838B66127BAA83D0020D517 /* Profiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profiles.swift; sourceTree = "<group>"; };
 		4859DA0827BFE12E00E398D3 /* exercise-list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "exercise-list.swift"; sourceTree = "<group>"; };
+		48C3309827DB610B007ED245 /* MatchedGeometryEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffect.swift; sourceTree = "<group>"; };
+		48C3309A27DB7047007ED245 /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
 		48E6F0C527C534EB00402199 /* ProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeader.swift; sourceTree = "<group>"; };
 		48E6F0C727C5377E00402199 /* profileList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileList.swift; sourceTree = "<group>"; };
 		48EA754527CD212400EFB89A /* picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = picker.swift; sourceTree = "<group>"; };
@@ -59,6 +63,7 @@
 		4838B63A27BA897C0020D517 = {
 			isa = PBXGroup;
 			children = (
+				48C3309727DB60BC007ED245 /* HelperScreens */,
 				4838B64527BA897C0020D517 /* emma-fitme-mmh */,
 				4838B64427BA897C0020D517 /* Products */,
 			);
@@ -102,7 +107,6 @@
 				4838B65D27BAA81E0020D517 /* YourPlan.swift */,
 				4838B65F27BAA82D0020D517 /* Exercise.swift */,
 				4838B66127BAA83D0020D517 /* Profiles.swift */,
-				480A9A5027D220C3009F63A0 /* ApiDemo.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -125,6 +129,16 @@
 				4838B65827BA9D650020D517 /* Tab.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		48C3309727DB60BC007ED245 /* HelperScreens */ = {
+			isa = PBXGroup;
+			children = (
+				480A9A5027D220C3009F63A0 /* ApiDemo.swift */,
+				48C3309827DB610B007ED245 /* MatchedGeometryEffect.swift */,
+				48C3309A27DB7047007ED245 /* PlayView.swift */,
+			);
+			path = HelperScreens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,6 +220,8 @@
 				4838B65927BA9D650020D517 /* Tab.swift in Sources */,
 				4838B66227BAA83D0020D517 /* Profiles.swift in Sources */,
 				4838B64927BA897C0020D517 /* ContentView.swift in Sources */,
+				48C3309927DB610B007ED245 /* MatchedGeometryEffect.swift in Sources */,
+				48C3309B27DB7047007ED245 /* PlayView.swift in Sources */,
 				4859DA0927BFE12E00E398D3 /* exercise-list.swift in Sources */,
 				4816266727D0CC7C00A41850 /* calender.swift in Sources */,
 				48E6F0C627C534EB00402199 /* ProfileHeader.swift in Sources */,
